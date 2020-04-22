@@ -8,7 +8,7 @@ Please use the following steps in order to get started:
 
 3. In your terminal, cd into the dowloaded directory
 
-4. Create environment by using the daniel_project.yml file
+4. Create environment by using the jupyter_project_envoriment.yml  file
 
     - look for a file named daniel_project.yml containing the necessary software packages required to run the notebook
     - create the new eviroment using the follwing commands in your terminal
