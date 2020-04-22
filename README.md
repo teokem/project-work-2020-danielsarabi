@@ -34,16 +34,16 @@ Please use the following steps in order to get started:
     ```
 8. Install ipykernel - Allows you to use the environment as a kernel in Jupyter
 
-```.py
-pip install --user ipykernel
-```
+    ```.py
+    pip install --user ipykernel
+    ```
 
 
 9. Using ipykernel, to get the environment to Jupyter
 
-```.py
-python -m ipykernel install --user --name=myenv
-```
+    ```.py
+    python -m ipykernel install --user --name=myenv
+    ```
 
 10. Run jupyter notebook from the command-line in terminal
 
