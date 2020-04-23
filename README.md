@@ -62,4 +62,4 @@ Two of my figures plots 25 lines which had initally a default color palette. The
 
 I usally make these type of scripts in matlab, which is not as versatile as jupyter when it comes to being user friendly, in regards to someone who has never used the code, to be able to open it and understand what the script does and what it means. Therefore, the ability to make markdown blocks with descriptions and uploading images together with code and figures is a very good way of preserving the purpose and function of the script for other users than the person who wrote it. It makes it easier to pass on and share. Pandas was very useful for loading dataframes and choosing columns made it easier to handle. matplotlib and seaborn was the best feature due to the many possibilies of visualizing the data, and the sequential color palette was to me the most interesting feature, which I will make sure to implement in future scripts. 
 
-
+![](Images/25_interpolations_diff_scatt_vacuo.png)
