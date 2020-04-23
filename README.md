@@ -8,18 +8,18 @@ Please use the following steps in order to get started:
 
 3. In your terminal, cd into the dowloaded directory
 
-4. Create environment by using the jupyter_project_envoriment.yml  file
+4. Create environment by using the daniel_jupyter.yml  file
 
     - look for a file named daniel_project.yml containing the necessary software packages required to run the notebook
     - create the new eviroment using the follwing commands in your terminal
 
     ```.py
-    conda env create -f daniel_project.yml
+    conda env create -f daniel_jupyter.yml
     ```
 5. Activate the environment
 
     ```.py
-    conda activate jupyter_project
+    conda activate daniel_project
     ```
 6. Check the contents of the environment by typing
 
@@ -27,7 +27,7 @@ Please use the following steps in order to get started:
     conda list
     ```
 
-7. Check also what environments you have. You should see jupyter_project in this list
+7. Check also what environments you have. You should see daniel_project in this list
 
     ```.py
     conda env list
@@ -42,7 +42,7 @@ Please use the following steps in order to get started:
 9. Using ipykernel, to get the environment to Jupyter
 
     ```.py
-    python -m ipykernel install --user --name=myenv
+    python -m ipykernel install --user --name=daniel_project
     ```
 
 10. Run jupyter notebook from the command-line in terminal
