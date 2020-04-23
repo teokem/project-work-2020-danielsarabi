@@ -1,3 +1,7 @@
+## DOI
+
+[![DOI](https://zenodo.org/badge/246542849.svg)](https://zenodo.org/badge/latestdoi/246542849)
+
 ## Getting started with the jupyter notebook
 
 Please use the following steps in order to get started:
