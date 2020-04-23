@@ -56,7 +56,7 @@ In accordance with Najlas posted issue, I have decreased xlabel and ylabel font 
 Regarding issues reviewed by Tinna, several changes and updates has been made to the Notebook. First, the description of Readme to get started with notebook has been altered, correct name of .yml was given and correct environment name when activating with conda. Also, two more points was added regarding the installation of ipykernel, which allows the user to upload the active enviroment as a kernel to Jupyter notebook. Second, i added the feature of saving the dataframes created with pandas to disk, so that all the dataframes created in each code cell is saved to a csv file with a specified name. Third, the correct size of figures was implemented, 183 mm wide and 300 dpi, to all figures. Consequently, the font size of xlabel, ylabel, title was altered to fit the new dimensions of figures. The ylabel ticks needed to be converted to scientific notation (exponential form) instead which was added with 
 
     ```.py
-    plt.ticklabel_format(axis="y",style="sci",scilimits=(0,0))
+   plt.ticklabel_format(axis="y",style="sci",scilimits=(0,0))
     ```
 Two of my figures plots 25 lines which had initally a default color palette. The color palette was changed using a sequential color palette from seaborn, and a legend was added to the figures so that the user can understand and visualize the data better. 
 
