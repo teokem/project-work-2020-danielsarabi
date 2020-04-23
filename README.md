@@ -61,3 +61,5 @@ plt.ticklabel_format(axis="y",style="sci",scilimits=(0,0))
 Two of my figures plots 25 lines which had initally a default color palette. The color palette was changed using a sequential color palette from seaborn, and a legend was added to the figures so that the user can understand and visualize the data better. 
 
 I usally make these type of scripts in matlab, which is not as versatile as jupyter when it comes to being user friendly, in regards to someone who has never used the code, to be able to open it and understand what the script does and what it means. Therefore, the ability to make markdown blocks with descriptions and uploading images together with code and figures is a very good way of preserving the purpose and function of the script for other users than the person who wrote it. It makes it easier to pass on and share. Pandas was very useful for loading dataframes and choosing columns made it easier to handle. matplotlib and seaborn was the best feature due to the many possibilies of visualizing the data, and the sequential color palette was to me the most interesting feature, which I will make sure to implement in future scripts. 
+
+
